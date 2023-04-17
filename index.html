@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Rolling the dice Multiplayer🎲</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h2>Round:<span id="round"></span> </h2>
+            <div class="diceSpace">
+                <div>
+                    <img src="imgs/dice-01.png" id="dice-1" alt="">
+                    <h3 class="resultDice" id="resultDice1">1</h3>
+                </div>
+                <div>
+                    <img src="imgs/dice-01.png" id="dice-2" alt="">
+                    <h3 class="resultDice" id="resultDice2">1</h3>
+                </div>
+            </div>
+            
+            <h1 id="winnerText">Inicie o jogo</h1>
+            <h2 id="result">Quem será que vai vencer?</h2>
+
+            <div class="buttonsArea">
+                <button id="buttonPlayer1" >Jogador 1</button>
+                <button id="buttonRestart" onclick="resetGame()">Reiniciar</button>
+                <button id="buttonPlayer2" >Jogador 2</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h6>Criado por Sidney Lima - UNICAP - 2º Periodo</h6>
+    </footer>
+</body>
+
+</html>
